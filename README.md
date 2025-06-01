@@ -19,6 +19,21 @@ project/
   ├── Project_Report.docx # Complete documentation
   └── Presentation.pptx # Project slides
 
+📚 Documentation
+Report: docs/102_Processs_and_Thread_Management.docx
+Presentation: docs/102_Processs_and_Thread_Management.pptx
+
+💻 Technical Stack
+Language: C (POSIX compliant)
+Platform: Kali Linux
+
+Key Libraries:
+<pthread.h> for threading
+<sys/ipc.h> for IPC
+<semaphore.h> for synchronization
+
+👥 Contributors
+Zunaira Shafqat
 
 ## 🚀 Quick Start
 
