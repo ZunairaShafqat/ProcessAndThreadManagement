@@ -1,2 +1,35 @@
-# ProcessAndThreadManagement
-A C-based project on Kali Linux simulating advanced process and thread management. Features include process creation, multithreading with pthreads, scheduling, synchronization (mutexes/semaphores), and basic IPC concepts.
+# Process and Thread Management System in C
+
+!*A comprehensive system for managing processes, threads, and IPC mechanisms in Linux*
+
+## 📖 Overview
+This project implements an advanced Process and Thread Management System using C on Kali Linux. It demonstrates core operating system concepts including process management, threading, IPC, and synchronisation.
+
+## ✨ Features
+- **Process Management** (fork, wait, kill)
+- **Thread Management** (pthreads with mutexes/condition variables)
+- **IPC Mechanisms** (pipes, shared memory, sockets)
+- **Synchronisation** (semaphores, mutexes)
+- **Logging System** with timestamped operations
+
+## 📂 Files
+project/
+├── main.c # Main source code
+├── docs/
+  ├── Project_Report.docx # Complete documentation
+  └── Presentation.pptx # Project slides
+
+
+## 🚀 Quick Start
+
+### Compile & Run
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/process-thread-management.git
+cd process-thread-management
+
+# Compile (requires gcc)
+gcc main.c -o process_manager -lpthread
+
+# Run
+./process_manager
