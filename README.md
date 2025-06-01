@@ -41,7 +41,7 @@ Zunaira Shafqat
 ```bash
 # Clone the repository
 https://github.com/ZunairaShafqat/ProcessAndThreadManagement.git
-cd process-thread-management
+cd project
 
 # Compile (requires gcc)
 gcc main.c -o main -lpthread
