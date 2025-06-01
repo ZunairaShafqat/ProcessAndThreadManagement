@@ -25,11 +25,11 @@ project/
 ### Compile & Run
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/process-thread-management.git
+https://github.com/ZunairaShafqat/ProcessAndThreadManagement.git
 cd process-thread-management
 
 # Compile (requires gcc)
-gcc main.c -o process_manager -lpthread
+gcc main.c -o main -lpthread
 
 # Run
-./process_manager
+./main
